@@ -84,11 +84,15 @@ public void insertAt(int position,int value) {
 	else {
 		int count=1;
 		Node previous=head;
-		while(count<position-1) {
+		while(count < position-1 && previous != null) {
 			previous=previous.next;
 			count++;
 		}
-		Node current=previous.next;// net node to previous
+		if (previous == null) {
+			System.out.println("Position out of bounds.");
+			return;
+		}
+		Node current=previous.next;// next node to previous
 		previous.next=node;
 		node.next=current;
 	}
