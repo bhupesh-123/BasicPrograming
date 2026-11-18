@@ -136,7 +136,7 @@ public void delete(int position) {
 			previous=previous.next;
 			count++;
 		}
-		Node current=previous.next;// net node to previous
+		Node current=previous.next;// next node to previous
 		previous.next=current.next;
 		
 	}

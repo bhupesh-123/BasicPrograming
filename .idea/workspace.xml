@@ -1,35 +1,276 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/com/program/CharacterOccurrence.java" line="11" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e75ff0a3-edff-47a6-85de-daf4394fabdb" name="Default Changelist" comment="adding all file">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/datastucture/linkList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/datastucture/linkList/SinglyLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java8/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java8/HighestLengthString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/java8/RunEmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/SortByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/StringLengthCompartor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sorting/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thread/BasicCompletableFuture1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thread/CompletableFuture_Ecommerce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thread/ExecutorExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thread/selinium/PrintOddEvenUsingThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastucture/linkList/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/builder/BuilderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/builder/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/factorydesign/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/prototype/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/prototype/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/prototype/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/prototype/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/designpattern/singalton/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/functionalInterface/Calculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/functionalInterface/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/FunctionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/Java_8_Basices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/RemoveDistinctElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/TryWithResorces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/java8/WithoutTryWithResorces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javaconcept/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javaconcept/ImmutableEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/javaconcept/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/ReverseConsonantsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/ReverseEachWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/ReverseVowelsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/others/ReflectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/AnagramCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ArmStrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ContainDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/CountCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/DuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/DuplicateNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/FirstNonRepeatedCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/MaximumElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/NumberAndCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/PrintOddEvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/Questions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/RemoveEmptyStringFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ReverseWordsInGivenSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/SecondLargestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/StringRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/SubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/practice/VowelsAndConsonants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/program/DuplicateCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/ExecutorServiceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/FutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/PrintNumberUsingThreeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/ThreadInterrupt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streambasic/BasicesProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter$MyInner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter$MyInner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter2$1MyInner2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter2$1MyInner2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Inner/MyOuter2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/DogQuerier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/DogQuerier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/DogQurier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/DogQurier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunctionalInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunctionalInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunctionalInterface1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/FunctionalInterface1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/LambdaSentax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/LambdaSentax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Mainclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Mainclass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/MyInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/MyInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/StreamExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/StreamExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/StreamInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/StreamInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TestDog$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TestDog$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TestDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TestDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TriPredicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TriPredicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TriPredicateClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/Lambda/TriPredicateClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/Isum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/Isum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/SumTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/SumTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/SumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/SeliniumExp/SumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/datastucture/linkList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/datastucture/linkList/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/datastucture/linkList/SinglyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/datastucture/linkList/SinglyLinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Emp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Emp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/EmployeeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/EmployeeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/FrequencyofEachElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/FrequencyofEachElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/HighestLengthString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/HighestLengthString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/ListInMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/ListInMap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Nullable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/Nullable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/RunEmp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/RunEmp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/StreamQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/StreamQuestions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/SumofIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/java8/SumofIntegers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/A$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/A$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/AbstractExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/AbstractExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Alarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Alarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/CheckOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/CheckOverloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Interface_java_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Interface_java_8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/MethodOverloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/MethodOverloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/PrivateFinal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/PrivateFinal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/Vehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/VehicleType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/javaconcept/VehicleType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ColourSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ColourSorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ContainMaxWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ContainMaxWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/Contain_Most_Water_Q11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/Contain_Most_Water_Q11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DifferentString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DifferentString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DuplicateElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DuplicateElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DuplicateElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/DuplicateElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestCommonPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestCommonPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestPalindromicSubstring_Q5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestPalindromicSubstring_Q5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestSubString_Q3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/LongestSubString_Q3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MaxNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MaxNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MaximumSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MaximumSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MoveNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/MoveNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/NonRepeatCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/NonRepeatCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/TwoSum_Q1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/TwoSum_Q1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/leetcode/ValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AbstractMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AbstractMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AddInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AddInArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AmstrongNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/AmstrongNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/CharacterOccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/CharacterOccurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/CheckWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/CheckWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Cloo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Cloo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/FirstNonReapeatingCharater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/FirstNonReapeatingCharater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/FirstnonReapeatcharInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/FirstnonReapeatcharInString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IntFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IntFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/InterfaceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/InterfaceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IntersectionString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IntersectionString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/IsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Kadane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Kadane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LargestNumber$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LargestNumber$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LargestNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LargestNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LengthofLastWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LengthofLastWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LongestString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LongestString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LongestSubStringWithoutRepeatingChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/LongestSubStringWithoutRepeatingChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/MaxSumLorR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/MaxSumLorR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/MonthAndIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/MonthAndIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Overlaping$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Overlaping$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Overlaping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Overlaping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/PerfectPeakofArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/PerfectPeakofArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/PlusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/RemoveDuplicateCharacter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/RemoveDuplicateCharacter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/RemoveSpecialCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/RemoveSpecialCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseEachWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseEachWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseWordInString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/ReverseWordInString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Roo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/Roo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/SortStringCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/SortStringCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/StringPrefix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/StringPrefix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/StringPrefixArraylist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/StringPrefixArraylist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/UniqueSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/program/UniqueSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/SortById.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/SortById.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/SortByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/SortByName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/StringLengthCompartor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/StringLengthCompartor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/sorting/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/LinkedListRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/LinkedListRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/MyCircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/MyCircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/QueueRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/QueueRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/structure/Recursion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/AI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/AI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Ab.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Ab.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Animal1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Animal1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Cloo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Cloo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/ConstMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/ConstMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Dog1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Dog1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Horse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Horse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Inheritance1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Inheritance1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/InterfaceMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/InterfaceMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/test/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/BasicCompletableFuture1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/BasicCompletableFuture1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/CompletableFutureCombine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/CompletableFutureCombine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/CompletableFuture_Ecommerce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/CompletableFuture_Ecommerce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/Counter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/Counter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ECommerceOrderProcessing_Parallel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ECommerceOrderProcessing_Parallel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ECommerceOrderProcessing_Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ECommerceOrderProcessing_Sequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ExecutorExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ExecutorExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/FraudDetectionSystem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/FraudDetectionSystem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/FutureExample1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/FutureExample1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/NumberPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/NumberPrinter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/PrintOddEvenNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/PrintOddEvenNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadLifeCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadLifeCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadPrintNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadPrintNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadSynchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadSynchronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadWaitExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/ThreadWaitExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/BankAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/BankAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CompletableFuture_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CompletableFuture_19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CountDownLatch_17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CountDownLatch_17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CounterModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/CounterModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/DependentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/DependentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorFramework_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorFramework_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorServiceInvokeAll_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorServiceInvokeAll_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorServiceWithFuture_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ExecutorServiceWithFuture_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LambdaExpression_14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LambdaExpression_14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LockExplained_8$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LockExplained_8$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LockExplained_8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/LockExplained_8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyRunnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyRunnable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyThreadCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/MyThreadCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ReadWriteCounter_10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/RunnableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/RunnableExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ScheduleExecutorServiceFixRate_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ScheduleExecutorServiceFixRate_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ScheduleExecutorService_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ScheduleExecutorService_16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/SharedResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/SharedResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadCommunication_12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadCommunication_12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadDaemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadDaemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadIntrupt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadIntrupt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadSynchronization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadSynchronization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadYield.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/ThreadYield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/UnFairLockExample_9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/UnFairLockExample_9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/engDigest/World.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/CompletableFutureExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/CompletableFutureExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/FutureExampleSynchronous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/OddEvenUsingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/OddEvenUsingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/PrintOddEvenUsingThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/thread/selinium/PrintOddEvenUsingThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/yt/singlyLinkList/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/yt/singlyLinkList/Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BasicPrograming/com/yt/singlyLinkList/SinglyLinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BasicPrograming/com/yt/singlyLinkList/SinglyLinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/Nullable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8/Nullable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java8/BasicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8/BasicProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/java8/EmployeeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/java8/EmployeeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/leetcode/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/leetcode/LongestCommonPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/structure/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/structure/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/yt/singlyLinkList/SinglyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yt/singlyLinkList/SinglyLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="288" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -154,6 +395,10 @@
       <select />
     </treeState>
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="80" />
     <option name="y" value="47" />
@@ -184,7 +429,6 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -252,23 +496,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LearningRabbitMq" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java_25_Projects/SpringBootMicroservice" />
   </component>
-  <component name="RunManager" selected="Application.HighestLengthString">
-    <configuration name="ExecutorExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.ExecutorExample1" />
-      <module name="BasicPrograming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TryWithResorces">
     <configuration name="ExecutorFramework_16" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thread.engDigest.ExecutorFramework_16" />
       <module name="BasicPrograming" />
@@ -282,12 +512,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceWithFuture_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.engDigest.ExecutorServiceWithFuture_16" />
+    <configuration name="MaximumElementInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.MaximumElementInArray" />
       <module name="BasicPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.engDigest.*" />
+          <option name="PATTERN" value="com.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,12 +525,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.FutureExample1" />
+    <configuration name="ReverseConsonantsInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseConsonantsInString" />
       <module name="BasicPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.*" />
+          <option name="PATTERN" value="com.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,8 +538,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HighestLengthString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.HighestLengthString" />
+    <configuration name="ReverseEachWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.ReverseEachWords" />
+      <module name="BasicPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TryWithResorces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.TryWithResorces" />
       <module name="BasicPrograming" />
       <extension name="coverage">
         <pattern>
@@ -321,8 +564,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunEmp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.java8.RunEmp" />
+    <configuration name="WithoutTryWithResorces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.java8.WithoutTryWithResorces" />
       <module name="BasicPrograming" />
       <extension name="coverage">
         <pattern>
@@ -336,19 +579,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ExecutorFramework_16" />
-      <item itemvalue="Application.ExecutorServiceWithFuture_16" />
-      <item itemvalue="Application.FutureExample1" />
-      <item itemvalue="Application.ExecutorExample1" />
-      <item itemvalue="Application.HighestLengthString" />
-      <item itemvalue="Application.RunEmp" />
+      <item itemvalue="Application.MaximumElementInArray" />
+      <item itemvalue="Application.ReverseConsonantsInString" />
+      <item itemvalue="Application.ReverseEachWords" />
+      <item itemvalue="Application.WithoutTryWithResorces" />
+      <item itemvalue="Application.TryWithResorces" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HighestLengthString" />
-        <item itemvalue="Application.RunEmp" />
-        <item itemvalue="Application.ExecutorExample1" />
-        <item itemvalue="Application.FutureExample1" />
-        <item itemvalue="Application.ExecutorServiceWithFuture_16" />
+        <item itemvalue="Application.TryWithResorces" />
+        <item itemvalue="Application.WithoutTryWithResorces" />
+        <item itemvalue="Application.ReverseEachWords" />
+        <item itemvalue="Application.ReverseConsonantsInString" />
+        <item itemvalue="Application.MaximumElementInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -422,6 +665,9 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296" />
     </layout-to-restore>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -480,6 +726,21 @@
           <line>40</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/ArmStrongNumber.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/practice/ReverseString.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/leetcode/LongestCommonPrefix.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/thread/engDigest/LockExplained_8.java</url>
           <line>10</line>
@@ -487,6 +748,15 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/practice/Palindrome.java</url>
+          <line>5</line>
+          <properties class="com.practice.Palindrome" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

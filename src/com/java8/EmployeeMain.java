@@ -1,9 +1,10 @@
 package com.java8;
 
-import java.security.KeyStore;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 //  https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/
 public class EmployeeMain {
     public static void main(String[] args) {
@@ -103,6 +104,115 @@ public class EmployeeMain {
         Optional<Employee>  oldestEmployee=employeeList.stream().max(Comparator.comparingInt(Employee::getAge));
         System.out.println(oldestEmployee);
 
+        List<Employee> sortByNameThenSalary = employeeList.stream().sorted(Comparator.comparing(Employee::getName)).sorted(Comparator.comparing(Employee::getSalary)).collect(Collectors.toList());
+        System.out.println("sortByNameThenSalary"+sortByNameThenSalary);
 
-    }
+        // find max salary
+        Employee minSalaryEmp= employeeList.stream().min(Comparator.comparing(Employee::getSalary)).get();
+        System.out.println("maxSalary: "+minSalaryEmp);
+
+       Double  maxSal=employeeList.stream().mapToDouble(Employee::getSalary).max().orElseThrow();
+        System.out.println("maxSal: "+maxSal);
+
+        Double  minSal=employeeList.stream().mapToDouble(Employee::getSalary).min().orElseThrow();
+        System.out.println("minSal: "+minSal);
+
+        Map<String, Optional<Employee>>  optionalMaxSalaryBy = employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment, Collectors.maxBy(Comparator.comparing(Employee::getSalary))));
+        System.out.println("optionalMaxSalaryBy: "+optionalMaxSalaryBy);
+
+        // find greater and less than 15K
+        Map<Boolean, List<Employee>> greaterThan15k = employeeList.stream().collect(Collectors.partitioningBy(sal -> sal.getSalary() > 15000));
+        List<Employee> employeesGreaterThan15k = greaterThan15k.get(true);
+        List<Employee> employeesLessThan15k = greaterThan15k.get(false);
+        System.out.println("employeesGreaterThan15k: "+employeesGreaterThan15k+" employeesLessThan15k: "+employeesLessThan15k);
+
+        // Convert List into using id is as key
+        Map<Integer, Employee> employeeMap = employeeList.stream().collect(Collectors.toMap(Employee::getId, Function.identity(), (exsisting, replacement) -> replacement));
+        System.out.println("employeeMap"+employeeMap);
+
+        // Employee base on joining year
+        Map<Integer, List<Employee>> joiningYear = employeeList.stream().collect(Collectors.groupingBy(Employee::getYearOfJoining));
+        System.out.println("joiningYear: "+joiningYear);
+
+        Map<Integer, List<String>> employeeNameWithJoiningYear = employeeList.stream().collect(Collectors.groupingBy(Employee::getYearOfJoining, Collectors.mapping(Employee::getName, Collectors.toList())));
+        System.out.println("employeeNameWithJoiningYear: "+employeeNameWithJoiningYear);
+
+        // https://chatgpt.com/c/69c6b431-3348-83a7-a2ed-5d46f5751344
+
+        // Grouping + Summing
+        // total Salary By Dept 
+        Map<String, Double> totalSalaryByDept  = employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment, Collectors.summingDouble(Employee::getSalary)));
+        System.out.println("totalSalaryByDept: "+totalSalaryByDept );
+
+        // Partitioning + Summing
+        Map<Boolean, Double> empsSalarygreaterThan2k = employeeList.stream()
+                .collect(Collectors.partitioningBy(s -> s.getSalary() > 20000, Collectors.summingDouble(Employee::getSalary)));
+        System.out.println("empsSalarygreaterThan2k: "+empsSalarygreaterThan2k);
+
+        // employees name in each department
+        Map<String, Set<String>> employeeInEachDepartment = employeeList.stream().collect(Collectors.groupingBy(Employee::getDepartment, Collectors.mapping(Employee::getName, Collectors.toSet())));
+        System.out.println("employeeInEachDepartment: "+employeeInEachDepartment);
+
+        // employee Joined From specific year
+        Map<Boolean, List<String>> employeesJoinedFromSpecificYear = employeeList.stream().collect(Collectors.partitioningBy(e -> e.getYearOfJoining() >= 2013, Collectors.mapping(Employee::getName, Collectors.toList())));
+        System.out.println("employeeJoinedFromSpecificYear: "+employeesJoinedFromSpecificYear);
+        List<String> employeeJoinedFromSpecificYearTrue = employeesJoinedFromSpecificYear.get(true);
+        System.out.println("employeeJoinedFromSpecificYearTrue: "+employeeJoinedFromSpecificYearTrue);
+
+        //employee join after 2013
+        List<String> empJoinedOn2013 = employeeList.stream().filter(e -> e.getYearOfJoining() >= 2013).collect(Collectors.mapping(Employee::getName, Collectors.toList()));
+        System.out.println("empJoinedOn2013: "+empJoinedOn2013);
+
+        // find duplicate name
+        Set<String> duplicateName=employeeList.stream().collect(Collectors.groupingBy(Employee::getName,Collectors.counting())).entrySet().stream().filter(entry->entry.getValue()>1).map(Map.Entry::getKey).collect(Collectors.toSet());
+        System.out.println("duplicateName: "+duplicateName);
+
+        // find nth highest salary
+       Optional<Employee> maxSalaryOptional= employeeList.stream().collect(Collectors.maxBy(Comparator.comparing(Employee::getSalary)));
+        System.out.println("maxSalary: "+maxSalaryOptional);
+        Employee maxSalary= employeeList.stream().max(Comparator.comparing(Employee::getSalary)).orElse(null);
+
+        // find nth highest salary
+        int n=3;
+        Optional<Double> thirdHighestSalary = employeeList.stream().map(Employee::getSalary).distinct().sorted(Comparator.reverseOrder()).skip(n - 1).findFirst();
+        System.out.println("thirdHighestSalary: "+thirdHighestSalary);
+
+        Optional<Employee> thirdHighestSalaryEmployee = employeeList.stream().distinct().sorted(Comparator.comparing(Employee::getSalary).reversed()).skip(n - 1).findFirst();
+        System.out.println("thirdHighestSalaryEmployee: "+thirdHighestSalaryEmployee);
+
+        // find longest name employee
+        Employee longestEmployeeName = employeeList.stream().max(Comparator.comparing(e -> e.getName().length())).get();
+        System.out.println("longestEmployeeName: "+longestEmployeeName);
+
+        // Sort by salary descending, then name ascending
+        List<Employee> sortBySalDesendingAndNameAsending = employeeList.stream().sorted(Comparator.comparing(Employee::getSalary).reversed().thenComparing(Employee::getName)).collect(Collectors.toList());
+        System.out.println("sortBySalDesendingAndNameAsending: "+sortBySalDesendingAndNameAsending);
+
+        // reduce
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        int sum=numbers.stream().reduce(0,(a,b)->a+b);
+        System.out.println("sum of numbers: "+sum);
+
+        //Max number
+        int maxNumber=numbers.stream().reduce(Integer.MIN_VALUE,(a,b) -> a>b?a:b);
+        System.out.println("maxNumber: "+maxNumber);
+       // string cancanate
+        List<String> names = Arrays.asList("Java", "Stream", "API");
+        String concanateResult=names.stream().reduce("",(a,b) -> a+" "+b);
+        System.out.println("concanateResult: "+concanateResult);
+
+        //Longest String
+        String longestString=names.stream().reduce("",(a,b) -> a.length()>b.length()?a:b);
+        System.out.println("longestString: "+longestString);
+
+        // Employee highest salary
+        Optional<Employee> maxSalEmployee = employeeList.stream().reduce((e1, e2) -> e1.getSalary() > e2.getSalary() ? e1 : e2);
+        System.out.println("maxSalEmployee: "+maxSalEmployee);
+
+        // flatstream
+        List<List<String>> list = List.of(List.of("Java", "Spring"), List.of("Kafka", "Docker"));
+        List<String> words=list.stream().flatMap(Collection::stream).toList();
+        System.out.println("words: "+words);
+
+        }
 }

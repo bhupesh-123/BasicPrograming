@@ -2,8 +2,10 @@ package com.leetcode;
 
 public class LongestCommonPrefix {
 public static void main(String[] args) {
-	String[] strings = {"flower", "flow", "flight"};
-    String result = longestCommonPrefix(strings);
+	String[] strings = {"flower", "flight", "flow"};
+	//String[] strings = {"flower", "owfl", "yflig"};
+
+	String result = longestCommonPrefix(strings);
     
     System.out.println("Longest Common Prefix: " + result);
    
